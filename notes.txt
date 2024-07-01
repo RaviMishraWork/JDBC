@@ -1,0 +1,35 @@
+Git - it is a version control system that helps to track changes in code.
+GitHub - website that allows developers to store and manage their code using git.
+
+tools to setup in system -> git and vs code 
+
+configuring Git ->
+git config --global user.name "Your Name"
+git config --global user.email "your email id that used to create GitHub account"
+git config --list
+
+clone & status ->
+git clone "git url"
+git init
+git status   -> 4 diff type of response you can see
+
+1. Untracked - new files that git doesn't yet track
+2. modified - changed
+3. staged - file is ready to commit
+
+ writing code in vs code ->  execute program   ->  output
+             code  ->  staged   ->  GitHub
+4.unmodified -> unchanged
+
+
+git commit -m "Your commit message here"
+
+important commands use with init command
+git init
+git remote add origin " link "
+git remote -v   (verify remote branch)
+git branch ( current and all branch name)
+git branch -m task ( rename your current opened branch)
+git push origin branch-name
+
+
