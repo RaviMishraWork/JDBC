@@ -33,5 +33,5 @@ git branch -m task ( rename your current opened branch)
 git push origin branch-name
 
 git checkout master
-
+CHeck Pull now
 
